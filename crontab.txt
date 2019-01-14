@@ -1,0 +1,2 @@
+*/1 * * * * /bin/sh /opt/app/iwin/tools/fetch-latest.sh
+0 3 * * * /bin/sh /opt/app/iwin/tools/fetch-history.sh

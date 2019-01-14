@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "aws-sdk": "^2.351.0",
+    "cheerio": "^1.0.0-rc.2",
+    "form-data": "^2.3.2",
+    "formidable": "^1.2.1",
+    "jsonwebtoken": "^8.2.1",
+    "md5": "^2.2.1",
+    "moment": "^2.22.1",
+    "mongodb": "^3.0.7",
+    "node-fetch": "^2.1.2",
+    "nodemailer": "^4.6.7",
+    "numeral": "^2.0.6",
+    "osmosis": "^1.1.6",
+    "r2": "^2.0.1",
+    "request": "^2.85.0",
+    "restify": "^7.1.0",
+    "restify-cookies": "^0.2.5",
+    "restify-router": "^0.5.0",
+    "xlsx": "^0.12.10"
+  },
+  "devDependencies": {
+    "restify-logger": "^2.0.1",
+    "supertest": "^3.3.0"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha '../apiTest.js'"
+  }
+}
